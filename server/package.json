@@ -1,0 +1,37 @@
+{
+  "name": "graphql-social-network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@apollo/server-plugin-response-cache": "^4.1.4",
+    "accept": "^3.1.3",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "brotli": "^1.3.3",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "i18next": "^24.2.3",
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-http-backend": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.12.1",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.10.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.6.2"
+  }
+}
